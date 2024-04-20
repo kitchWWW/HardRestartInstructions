@@ -24,7 +24,6 @@ node app.js
 Ctrl+b d
 
 
-
 cd databending
 source bin/activate
 cd databendingserver
@@ -33,7 +32,6 @@ cd
 
 
 cd relay
-source bin/activate
 cd relay-server
 nohup python app.py &
 cd 
@@ -46,6 +44,11 @@ nohup python main.py &
 cd 
 
 
+export TMPDIR=/home/ec2-user/tmp
 
+cd ai-deep-listening/
+source bin/activate
+cd /home/ec2-user/ai-deep-listening/ai-deep-listening/audiocap
+nohup python app.py &
 
 ```
