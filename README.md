@@ -1,7 +1,7 @@
 INTRUCTIONS TO HARD RESTART: 
 
 
-
+```
 sudo systemctl start nginx
 
 
@@ -41,3 +41,4 @@ cd
 
 
 
+```
