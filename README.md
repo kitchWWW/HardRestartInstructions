@@ -39,6 +39,13 @@ nohup python app.py &
 cd 
 
 
+cd veemees
+source bin/activate
+cd /home/ec2-user/veemees/veemee.es
+nohup python main.py &
+cd 
+
+
 
 
 ```
