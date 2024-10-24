@@ -32,6 +32,7 @@ cd
 
 
 cd /home/ec2-user/relay
+source bin/activate
 cd relay-server
 nohup python app.py &
 cd 
